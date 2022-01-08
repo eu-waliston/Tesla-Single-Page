@@ -1,16 +1,5 @@
-# title(){return this.options.title||this.options.name}
+#Single page using Bulma CSS 
 
-## Supporting Scrimba
 
-Since 2017, we have created over 20 free courses on Scrimba, and we're going to
-continue launching free courses. But to pay our bills, we have to charge once
-in a while. So if you've ever wanted to "give back" to Scrimba, you can do that by buying
-	one of our paid courses
+![Screenshot from 2022-01-08 19-13-51](https://user-images.githubusercontent.com/82295321/148661943-1a352a7e-ca5e-4f62-90b5-73ae90dec15d.png)
 
-- [Become a professional React developer](https://scrimba.com/course/greact)
-- [The Responsive Web Design Bootcamp](https://scrimba.com/course/gresponsive)
-- [The Ultimate JavaScript Bootcamp](https://scrimba.com/course/gjavascript)
-
-	It would also mean the world to us if you share the courses.  
-
-Happy Coding!
