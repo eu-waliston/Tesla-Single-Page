@@ -1,0 +1,75 @@
+/* SCREMM */ 
+
+.hero {
+  background: black url(../images/hero-1.jpg) center/ cover;
+}
+
+@media (max-width: 1024px) {
+  body {
+    background: black url(../images/hero-2.jpg) center/ cover;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    background: black url(../images/hero-3.jpg) center/ cover;
+  }
+}
+
+/* END SCREMM */ 
+
+/* NAV_BAR STYLES */
+
+.center, .center-column, .top, .right, .bottom, .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-column {
+  flex-direction: column;
+}
+
+.top { align-items: flex-start;}
+.right { justify-content: flex-end;}
+.bottom {align-items: flex-end;}
+.left { justify-content: flex-start;}
+
+.single-spaced, .single-spaced * {
+  line-height: 1;
+}
+
+/* END OF NAV-BAR STYLES */
+
+
+/* GRID SCREEM STYLES */
+
+#a { grid-area: a;}
+#b { grid-area: b;}
+#c { grid-area: c;}
+#d { grid-area: d;}
+#e { grid-area: e;}
+
+#grid {
+  display: grid;
+  grid-template-areas: 
+        "a a a a"
+        "b c d e";
+  row-gap: 1rem;
+}
+
+@media (max-width: 512px) {
+  #grid {
+    display: grid;
+    grid-template-areas: 
+          "a a a "
+          "b c d "
+          "e e e";
+  }
+}
+/* END OF GRID SCREEM STYLES */
